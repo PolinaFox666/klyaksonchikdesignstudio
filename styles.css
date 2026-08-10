@@ -1308,6 +1308,7 @@ body::before {
     linear-gradient(rgba(255, 255, 255, 0.018) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 255, 255, 0.018) 1px, transparent 1px);
   background-size: 72px 72px;
+  opacity: 0.5;
   content: "";
   pointer-events: none;
   mask-image: linear-gradient(to bottom, #000 0%, rgba(0,0,0,.72) 46%, transparent 100%);
